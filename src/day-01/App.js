@@ -2,6 +2,7 @@ import { useRef, useState } from 'react'
 import './App.scss'
 import avatar from './images/bozai.png'
 import _ from 'lodash'
+import classNames from 'classnames'
 import { v4 as uuidV4 } from 'uuid'
 import dayjs from 'dayjs'
 
@@ -136,7 +137,7 @@ const App = () => {
             {tabs.map(item => 
               <span 
                 key={item.type} 
-                className={`nav-item ${type === item.type && 'active' }`}
+                className={classNames('nav-item', { active: type === item.type })}
                 onClick={() => handleClickTab(item.type)}
               >
                 {item.text}
