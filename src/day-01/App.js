@@ -2,9 +2,8 @@ import { useRef, useState } from 'react'
 import './App.scss'
 import avatar from './images/bozai.png'
 import _ from 'lodash'
-//import classnames from 'classnames'
 import { v4 as uuidV4 } from 'uuid'
-//import dayjs from 'dayjs'
+import dayjs from 'dayjs'
 
 /**
  * 评论列表的渲染和操作
