@@ -10,8 +10,8 @@ import dayjs from 'dayjs'
  *
  * 1. 根据状态渲染评论列表
  * 2. 删除评论
- */
- 
+ */ 
+
 // 评论列表数据
 const defaultList = [
   {
