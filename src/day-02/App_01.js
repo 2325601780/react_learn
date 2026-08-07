@@ -38,7 +38,7 @@ function App1() {
 function A({ getAName }) {
 
   /**
-   * 
+   *  
    */
   const handleClickSend = (name) => {
     getAName(name)

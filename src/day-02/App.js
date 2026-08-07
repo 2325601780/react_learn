@@ -56,7 +56,7 @@ const useGetComments = () => {
 const CommentItem = ({ item, onClickDel }) => {
   const onMyselfClickDelete = (id) => {
     onClickDel(id)
-  }
+  } 
   return (
     <div className="reply-item" key={item.rpid}>
       <div className="root-reply-avatar">
