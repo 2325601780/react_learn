@@ -38,7 +38,7 @@ const useGetComments = () => {
      * 获取评论列表
      */
     const getComments = async () => {
-      const res = await axios.get('http://localhost:3001/list')
+      const res = await axios.get('http://localhost:3001/list') //"json-server ./src/day-02/_db.json --port 3001"
       setComments(res.data)
     }
     getComments()
